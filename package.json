@@ -5,15 +5,15 @@
   "main": "build/index.js",
   "scripts": {
     "lint": "eslint .",
-	"fix": "eslint --fix ."
+    "fix": "eslint --fix ."
   },
   "pre-commit": [
-	"fix",
-	"lint"
+    "fix",
+    "lint"
   ],
   "keywords": [
-	 "static",
-	 "webserver"
+    "static",
+    "webserver"
   ],
   "repository": {
     "type": "git",
@@ -25,10 +25,10 @@
     "url": "https://github.com/anyviya/anydoor/issues"
   },
   "homepage": "https://github.com/anyviya/anydoor#readme",
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
-      "pre-commit": "^1.2.2"
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "pre-commit": "^1.2.2"
   }
 }
