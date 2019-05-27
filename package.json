@@ -1,0 +1,34 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "description": "node web server",
+  "main": "build/index.js",
+  "scripts": {
+    "lint": "eslint .",
+	"fix": "eslint --fix ."
+  },
+  "pre-commit": [
+	"fix",
+	"lint"
+  ],
+  "keywords": [
+	 "static",
+	 "webserver"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anyviya/anydoor.git"
+  },
+  "author": "anyviya@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anyviya/anydoor/issues"
+  },
+  "homepage": "https://github.com/anyviya/anydoor#readme",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+      "pre-commit": "^1.2.2"
+  }
+}

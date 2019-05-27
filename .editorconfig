@@ -1,0 +1,17 @@
+root = true
+
+#所有的文件都匹配
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+#每一行的最后要求是回车
+insert_final_newline = true
+# 自动点保存删除该行多余空格
+trim_trailing_whitespace = true
+
+[*.json]
+indent_size = 4
+
+

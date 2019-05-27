@@ -1,0 +1,5 @@
+node_module
+src
+test
+
+#以上文件夹对npm都是无用的，可以都忽略掉
