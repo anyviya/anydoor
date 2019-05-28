@@ -25,7 +25,10 @@
     "url": "https://github.com/anyviya/anydoor/issues"
   },
   "homepage": "https://github.com/anyviya/anydoor#readme",
-  "dependencies": {},
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "handlebars": "^4.1.2"
+  },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
